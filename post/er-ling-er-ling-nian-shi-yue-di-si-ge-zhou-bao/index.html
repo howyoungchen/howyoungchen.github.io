@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>二零二零年十月第四个周报 | 体会到无论多么痛苦也要学习了吗？</title>
+<link rel="shortcut icon" href="https://howyoungchen.github.io/favicon.ico?v=1603562153987">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://howyoungchen.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="二零二零年十月第四个周报 | 体会到无论多么痛苦也要学习了吗？ - Atom Feed" href="https://howyoungchen.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="科研
+
+制定了新的模型
+将模型代码基本实现
+构思新的模型
+
+工作
+
+上班4天
+
+学习
+
+开始刷leetcode，从数组开始
+
+提升
+
+开始学习进化心理学及社会心理学
+
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://howyoungchen.github.io">
+  <img class="avatar" src="https://howyoungchen.github.io/images/avatar.png?v=1603562153987" alt="">
+  </a>
+  <h1 class="site-title">
+    体会到无论多么痛苦也要学习了吗？
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              二零二零年十月第四个周报
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-10-25
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="科研">科研</h2>
+<ul>
+<li>制定了新的模型</li>
+<li>将模型代码基本实现</li>
+<li>构思新的模型</li>
+</ul>
+<h2 id="工作">工作</h2>
+<ul>
+<li>上班4天</li>
+</ul>
+<h2 id="学习">学习</h2>
+<ul>
+<li>开始刷leetcode，从数组开始</li>
+</ul>
+<h2 id="提升">提升</h2>
+<ul>
+<li>开始学习进化心理学及社会心理学</li>
+</ul>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%A7%91%E7%A0%94">科研</a></li>
+<li><a href="#%E5%B7%A5%E4%BD%9C">工作</a></li>
+<li><a href="#%E5%AD%A6%E4%B9%A0">学习</a></li>
+<li><a href="#%E6%8F%90%E5%8D%87">提升</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://howyoungchen.github.io/post/markdown-xie-zuo-gui-ze/">
+              <h3 class="post-title">
+                MarkDown写作规则
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://www.gov.cn/" target="_blank">NERV</a>
+  <a class="rss" href="https://howyoungchen.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

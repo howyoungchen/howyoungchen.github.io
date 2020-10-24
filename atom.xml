@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-24T17:35:43.771Z</updated>
+    <updated>2020-10-24T17:56:04.471Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
@@ -10,12 +10,54 @@
     <icon>https://howyoungchen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 体会到无论多么痛苦也要学习了吗？</rights>
     <entry>
-        <title type="html"><![CDATA[新文章测试]]></title>
-        <id>https://howyoungchen.github.io/post/xin-wen-zhang-ce-shi/</id>
-        <link href="https://howyoungchen.github.io/post/xin-wen-zhang-ce-shi/">
+        <title type="html"><![CDATA[二零二零年十月第四个周报]]></title>
+        <id>https://howyoungchen.github.io/post/er-ling-er-ling-nian-shi-yue-di-si-ge-zhou-bao/</id>
+        <link href="https://howyoungchen.github.io/post/er-ling-er-ling-nian-shi-yue-di-si-ge-zhou-bao/">
         </link>
-        <updated>2020-10-24T17:07:16.000Z</updated>
-        <content type="html"><![CDATA[<p>这是我第一个文章</p>
+        <updated>2020-10-24T17:53:04.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="科研">科研</h2>
+<ul>
+<li>制定了新的模型</li>
+<li>将模型代码基本实现</li>
+<li>构思新的模型</li>
+</ul>
+<h2 id="工作">工作</h2>
+<ul>
+<li>上班4天</li>
+</ul>
+<h2 id="学习">学习</h2>
+<ul>
+<li>开始刷leetcode，从数组开始</li>
+</ul>
+<h2 id="提升">提升</h2>
+<ul>
+<li>开始学习进化心理学及社会心理学</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MarkDown写作规则]]></title>
+        <id>https://howyoungchen.github.io/post/markdown-xie-zuo-gui-ze/</id>
+        <link href="https://howyoungchen.github.io/post/markdown-xie-zuo-gui-ze/">
+        </link>
+        <updated>2020-10-24T17:36:06.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="这是最大字体井号后要空行">这是最大字体，井号后要空行</h1>
+<h2 id="井号最多有六个注意用空行来换行">井号最多有六个，注意用空行来换行</h2>
+<h3 id="不然就会这样">不然就会这样</h3>
+<p>--- 或者***这是分隔符</p>
+<hr>
+<p>引用与正文中间要空行</p>
+<pre><code>引用用tab来开头
+</code></pre>
+<ul>
+<li>这是</li>
+<li>无序</li>
+<li>排列</li>
+</ul>
+<p>代码用键盘左上角反引号左右引用即可</p>
+<p><code>print(necessary)</code></p>
+<p>添加链接方法如下<br>
+<a href="https://www.cnblogs.com/downey-blog/p/9583748.html">博客</a></p>
 ]]></content>
     </entry>
 </feed>

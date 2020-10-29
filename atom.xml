@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-29T13:42:34.315Z</updated>
+    <updated>2020-10-29T13:58:01.851Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
     <logo>https://howyoungchen.github.io/images/avatar.png</logo>
     <icon>https://howyoungchen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 体会到无论多么痛苦也要学习了吗？</rights>
+    <entry>
+        <title type="html"><![CDATA[十月二十九日关于MetaGan_RN的小八哥]]></title>
+        <id>https://howyoungchen.github.io/post/shi-yue-er-shi-jiu-ri-guan-yu-metagan_rn-de-xiao-ba-ge/</id>
+        <link href="https://howyoungchen.github.io/post/shi-yue-er-shi-jiu-ri-guan-yu-metagan_rn-de-xiao-ba-ge/">
+        </link>
+        <updated>2020-10-29T13:44:53.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>
+<h2 id="关于nndataparallel">关于nn.DataParallel()</h2>
+<ol>
+<li>后要加.cuda()</li>
+<li>要使用os限定gpu序号</li>
+<li>使用的batch数尽量是gpu的整数倍</li>
+<li>子网络调用self.batch时要注意，虽然batch=n，但实际的网络接受到的数据<br>
+大小是 n/torch.cuda.device_count()</li>
+<li>调用nn.DataParallel()后，如若要对内部网络修改，可以尝试model.module()</li>
+</ol>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[二零二零年十月第四个周报]]></title>
         <id>https://howyoungchen.github.io/post/er-ling-er-ling-nian-shi-yue-di-si-ge-zhou-bao/</id>

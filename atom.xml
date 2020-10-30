@@ -2,13 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-29T13:58:29.759Z</updated>
+    <updated>2020-10-30T17:59:42.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
     <logo>https://howyoungchen.github.io/images/avatar.png</logo>
     <icon>https://howyoungchen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 体会到无论多么痛苦也要学习了吗？</rights>
+    <entry>
+        <title type="html"><![CDATA[十月三十一日]]></title>
+        <id>https://howyoungchen.github.io/post/shi-yue-san-shi-yi-ri/</id>
+        <link href="https://howyoungchen.github.io/post/shi-yue-san-shi-yi-ri/">
+        </link>
+        <updated>2020-10-30T17:58:20.000Z</updated>
+        <content type="html"><![CDATA[<p>MetaGan_RN with ideanet 终于完成。</p>
+<p>但和wandb的结合还有待提高</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[十月三十日和大八哥玩了一天]]></title>
+        <id>https://howyoungchen.github.io/post/shi-yue-san-shi-ri-he-da-ba-ge-wan-liao-yi-tian/</id>
+        <link href="https://howyoungchen.github.io/post/shi-yue-san-shi-ri-he-da-ba-ge-wan-liao-yi-tian/">
+        </link>
+        <updated>2020-10-30T17:53:55.000Z</updated>
+        <content type="html"><![CDATA[<p>原因居然是因为之前某天在测试其中一个模块时修改了一个参数</p>
+<p>model.module()无法使用多卡。所以尽量直接使用model.()来进行多卡前向传播</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[十月二十九日关于MetaGan_RN的小八哥]]></title>
         <id>https://howyoungchen.github.io/post/shi-yue-er-shi-jiu-ri-guan-yu-metagan_rn-de-xiao-ba-ge/</id>

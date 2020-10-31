@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-31T07:03:21.779Z</updated>
+    <updated>2020-10-31T13:43:03.901Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
@@ -20,6 +20,7 @@
 <h2 id="技术">技术</h2>
 <p><a href="https://https://www.github.com">github</a></p>
 <p><a href="https://leetcode.com/">LeetCode</a></p>
+<p><a href="https://colab.research.google.com/notebooks/intro.ipynb">CoLab</a></p>
 <h2 id="比赛">比赛</h2>
 <p><a href="https://www.kaggle.com/">kaggle</a></p>
 <h2 id="文档">文档</h2>

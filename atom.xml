@@ -2,13 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-31T06:51:24.955Z</updated>
+    <updated>2020-10-31T07:02:23.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
     <logo>https://howyoungchen.github.io/images/avatar.png</logo>
     <icon>https://howyoungchen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 体会到无论多么痛苦也要学习了吗？</rights>
+    <entry>
+        <title type="html"><![CDATA[常用网页]]></title>
+        <id>https://howyoungchen.github.io/post/chang-yong-wang-ye/</id>
+        <link href="https://howyoungchen.github.io/post/chang-yong-wang-ye/">
+        </link>
+        <updated>2020-10-31T06:55:05.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="科研">科研</h2>
+<p><a href="https://openreview.net/group?id=ICLR.cc/2021/Conference">ICLR2021open_review</a></p>
+<h2 id="技术">技术</h2>
+<p><a href="www.github.com">github</a></p>
+<p><a href="https://leetcode.com/">LeetCode</a></p>
+<h2 id="比赛">比赛</h2>
+<p><a href="https://www.kaggle.com/">kaggle</a></p>
+<h2 id="文档">文档</h2>
+<p><a href="https://pytorch.org/docs/stable/index.html">pytorch_doc</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ICLR2021 open review]]></title>
         <id>https://howyoungchen.github.io/post/iclr2021-open-review/</id>

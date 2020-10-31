@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://howyoungchen.github.io</id>
     <title>体会到无论多么痛苦也要学习了吗？</title>
-    <updated>2020-10-31T16:13:28.685Z</updated>
+    <updated>2020-10-31T17:09:45.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://howyoungchen.github.io"/>
     <link rel="self" href="https://howyoungchen.github.io/atom.xml"/>
@@ -165,7 +165,8 @@ kill 24365
         <link href="https://howyoungchen.github.io/post/markdown-xie-zuo-gui-ze/">
         </link>
         <updated>2020-10-24T17:36:06.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="这是最大字体井号后要空行">这是最大字体，井号后要空行</h1>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://howyoungchen.github.io/post-images/1604164170262.png" alt="" loading="lazy"></figure>
+<h1 id="这是最大字体井号后要空行">这是最大字体，井号后要空行</h1>
 <h2 id="井号最多有六个注意用空行来换行">井号最多有六个，注意用空行来换行</h2>
 <h3 id="不然就会这样">不然就会这样</h3>
 <p>--- 或者***这是分隔符</p>

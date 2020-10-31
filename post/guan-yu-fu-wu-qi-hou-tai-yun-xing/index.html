@@ -2,19 +2,21 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>十月三十一日 | 体会到无论多么痛苦也要学习了吗？</title>
+<title>关于服务器后台运行 | 体会到无论多么痛苦也要学习了吗？</title>
 <link rel="shortcut icon" href="https://howyoungchen.github.io/favicon.ico?v=1604125711639">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://howyoungchen.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="十月三十一日 | 体会到无论多么痛苦也要学习了吗？ - Atom Feed" href="https://howyoungchen.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="关于服务器后台运行 | 体会到无论多么痛苦也要学习了吗？ - Atom Feed" href="https://howyoungchen.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="MetaGan_RN with ideanet 终于完成。
-但和wandb的结合还有待提高
-" />
-    <meta name="keywords" content="未完成事项清单" />
+    <meta name="description" content="转载自 https://blog.csdn.net/wzqnls/article/details/53365280
+感谢wzqnls的分享
+# 1.后台启动程序
+nohup Command [ Arg … ] [　&amp; ]
+# noh..." />
+    <meta name="keywords" content="技术" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -82,26 +84,62 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              十月三十一日
+              关于服务器后台运行
             </h2>
             <div class="post-info">
               <span>
                 2020-10-31
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
-                <a href="https://howyoungchen.github.io/tag/PiaBb7myk/" class="post-tag">
-                  # 未完成事项清单
+                <a href="https://howyoungchen.github.io/tag/r50JqoFJ7/" class="post-tag">
+                  # 技术
                 </a>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>MetaGan_RN with ideanet 终于完成。</p>
-<p>但和wandb的结合还有待提高</p>
+                <p>转载自 https://blog.csdn.net/wzqnls/article/details/53365280<br>
+感谢wzqnls的分享</p>
+<pre><code># 1.后台启动程序
+nohup Command [ Arg … ] [　&amp; ]
+# nohup命令 参数可选但不是必须的，又需要看文档既可
+# 举例
+# 在后台运行 test.py的python脚本
+nohup python test.py &amp;
+# 在后台运行uwsgi(下面的只是uwsgi举例)
+nohup uwsgi --http :8001 --wsgi-file test.py &amp;
+
+# 执行之后会返回一个进程号
+# 以及告诉你程序的标准输出都会保存在一个叫outhup.out的文件中在程序根目录下
+
+# 2.查看此程序运行状态
+# 端口状态查看
+lsof -i:port
+
+# 某某程序运行状态
+ps -ef | grep &lt;程序名&gt;
+# 举例 
+# 查看后台python运行状态 
+ps -ef | grep python
+# 查看后台uwsgi运行状态
+ps -ef | grep uwsgi
+
+# jobs这个命令也可查看程序后台运行状态，不过另起一个ssh就出不来了，感觉有点鸡肋
+
+# 3.停掉这个程序，不让他运行了
+# 可以把后台程序转到前台，也可以根据进程号直接干掉，这里推荐后者，毕竟方便
+# 例如根据 ps -ef | grep &lt;程序名&gt; 得到进程号24365
+kill 24365
+# 这个进程讲就game over了
+
+# 最最最重要的一点
+# 程序在后台运行了之后，不要直接把ssh给关了
+# 一但ssh客户端中断，这个进程也就直接挂了
+# 所以我们需要exit来退出远程连接，真的是细节决定成败</code></pre>
 
               </div>
               <div class="toc-container">
@@ -114,9 +152,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://howyoungchen.github.io/post/shi-yue-san-shi-ri-he-da-ba-ge-wan-liao-yi-tian/">
+            <a href="https://howyoungchen.github.io/post/shi-yue-san-shi-yi-ri/">
               <h3 class="post-title">
-                十月三十日和大八哥玩了一天
+                十月三十一日
               </h3>
             </a>
           </div>
